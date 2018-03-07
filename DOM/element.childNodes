@@ -1,0 +1,11 @@
+syntax: element.childNodes
+
+Use: to manipulate nodes
+
+Tips:
+  1. childNodes get any collections from the parent node
+      such as: element, content, comment... all are included into the childNodes collection
+  
+  2. element.childNodes[index], from 0
+  
+  3. different with element.children is : element.children only collects element, but not text content and comments. 
