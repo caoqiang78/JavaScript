@@ -1,0 +1,6 @@
+syntax: element.children
+
+Tips:
+  1. only collect elements
+  
+  2. different with childNodes is not collect text content, comments (these are also treated with nodes)
