@@ -1,0 +1,25 @@
+syntax: document.createDocumentFragment()
+
+Use: this is usfule for extract elements from document, and manipulate the elements, and then append it back.
+
+Tip:
+  1. node is append to documentfragment will be removed from the document file
+ 
+        <ul>
+          <li> first </li>
+          <li> second </li>
+          <li> thrid <li>
+         </ul>
+         
+         var fragment = document.createDocumentFragment();
+         fragment.appendchild(document.querySelecor("ul li"));
+         after appendChild() execute, the first li element will be removed.
+         
+         <ul>
+          <li> second </li>
+          <li> thrid <li>
+         </ul>
+  
+  2. when you append framgment to document, only its content will be appended to the target
+  
+  3. after you manipulate with childnodes, children methods , you can put it back
