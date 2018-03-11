@@ -1,0 +1,9 @@
+Syntax: element.removeAttribute()
+Tips:
+  1. remove the attribute from element with specific name, such as "class", "style", "id"...
+  2. no return value
+  
+Syntax: element.removeAttributeNode()
+Tips:
+  1. removes the specified attribute from an element, and returns the removed attribute
+  2. normally, first use getAttributeNode() to get attribute node, then use element.removeAttributeNode(getAttributeNode()) to remove attribue
