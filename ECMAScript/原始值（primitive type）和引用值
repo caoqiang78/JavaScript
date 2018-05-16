@@ -1,0 +1,19 @@
+var可以存储两种类型的值
+    原始值： 存储在栈（stack）中的简单数据段，也就是说他们的值是直接存储在变量访问的位置
+    引用值：存储在堆（heap）中的对象，存储在变量处的值是一个指针（point），指向存储对象的内存处
+
+原始类型值（primitive type）：number，string，boolean，NULL, undefined，存储在栈（stack）中
+    typeof 运算符可以检测变量类型
+       undefined：如果变量是undefined类型
+          当变量未初始化时，被认为赋予了undefined
+          当函数无明确返回值是，函数名被赋予undefined
+          undefined是从Null派生出来，所以undefined == null is true
+          undefined是声明了变量但未赋值，null是表示尚未存在的对象
+       boolean：如果变量是boolean类型
+       number：如果变量是number类型
+          Number.MAX_VALUE，Number.MIN_VALUE   是数据类型
+          无穷大，无穷小： Number_POSITIVE_INFINITY,Number_NEGATIVE_INFINITY
+          函数isFinite（）可以判断是否是无穷大
+          NaN == NaN 返回值是fales
+       string：如果变量是string类型
+       object：如果变量是引用型或者NULL
