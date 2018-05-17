@@ -17,3 +17,5 @@ var可以存储两种类型的值
           NaN == NaN 返回值是fales
        string：如果变量是string类型
        object：如果变量是引用型或者NULL
+       
+    intanceof 运算符
