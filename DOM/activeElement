@@ -1,0 +1,9 @@
+syntax: document.activeElement
+
+The activeElement property returns the currently focused element in the document.
+
+Note: This property is read-only.
+
+Tip: To give focus to an element, use the element.focus() method.
+
+Tip: To find out if the document has focus, use the document.hasFocus() method.
