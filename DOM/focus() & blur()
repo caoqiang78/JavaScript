@@ -1,0 +1,13 @@
+syntax: HTMLElementObject.focus()
+
+The focus() method is used to give focus to an element (if it can be focused).
+
+Tip: Use the blur() method to remove focus from an element.
+
+
+
+syntax: HTMLElementObject.blur()
+
+The blur() method is used to remove focus from an element.
+
+Tip: Use the focus() method to give focus to an element.
