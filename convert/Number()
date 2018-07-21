@@ -1,0 +1,11 @@
+Syntax: Number(object)
+
+The Number() function converts the object argument to a number that represents the object's value.
+
+If the value cannot be converted to a legal number, NaN is returned.
+
+Boolean: true = 1, false = 0
+"999": Number("999") = 999
+"999 888": Number("999 888") = NaN
+
+Note: If the parameter is a Date object, the Number() function returns the number of milliseconds since midnight January 1, 1970 UTC.
